@@ -3,8 +3,8 @@ A   CapitalT   class and functions that use/test it.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Kirk Preston.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -170,6 +170,8 @@ class CapitalT(object):
         #   and *** NO OTHER INSTANCE VARIABLES. ***
         #   Note: Implement   attach_to   before testing this __init__ method.
         # ---------------------------------------------------------------------
+
+        IPcenter = rg.Point()
 
     def attach_to(self, window):
         """
